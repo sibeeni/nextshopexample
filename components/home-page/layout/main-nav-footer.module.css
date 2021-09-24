@@ -1,0 +1,35 @@
+.nav_footer {
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    background-color: #171616;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 12px;
+}
+
+.nav_footer a{
+    padding-left: 5px;
+}
+
+.nav_footer_grid {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 5px;
+}
+
+.nav_footer_grid_div_left {
+    margin-left: 10px;
+}
+
+.nav_footer_grid_div_right {
+    right: 0px;
+    position: absolute;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav_footer {
+        width: 100%;
+    }
+}

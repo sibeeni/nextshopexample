@@ -1,0 +1,22 @@
+.section_banner {    
+    padding: 5%;
+}
+
+.section_banner_title{
+    font-size:20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section_banner_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 5px;
+}
+
+.section_banner_content img{
+    border-radius: 5px;
+}

@@ -1,0 +1,113 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import classes from './hot-product.module.css'
+
+function HotProduct() {
+    return ( 
+        <section>
+            <div className={classes.hot_product}>
+                <div className={classes.hot_product_title}>Hot products</div>
+                <div className={classes.hot_product_grid}>
+                    <div className={classes.hot_product_content}>
+                        <Link href='/'>
+                            <a>
+                                <div className={classes.hot_product_image}>
+                                    <Image 
+                                        src="/images/product/apple.jpg" 
+                                        alt="apple" 
+                                        width={150} 
+                                        height={150}
+                                    />
+                                </div>
+                                <div className={classes.hot_product_name}>Apple</div>
+                                <div className={classes.hot_product_price}>$ 3.5</div>                            
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={classes.hot_product_content}>
+                        <Link href='/'>
+                            <a>
+                                <div className={classes.hot_product_image}>
+                                    <Image 
+                                        src="/images/product/blueberry.jpg" 
+                                    alt="blueberry" 
+                                        width={150} 
+                                        height={150}
+                                    />
+                                </div>
+                                <div className={classes.hot_product_name}>Blueberry</div>
+                                <div className={classes.hot_product_price}>$ 5.5</div>                            
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={classes.hot_product_content}>
+                        <Link href='/'>
+                            <a>
+                                <div className={classes.hot_product_image}>
+                                    <Image 
+                                        src="/images/product/grape.jpg" 
+                                        alt="grape" 
+                                        width={150} 
+                                        height={150}
+                                    />
+                                </div>
+                                <div className={classes.hot_product_name}>Grape</div>
+                                <div className={classes.hot_product_price}>$ 4.5</div>                            
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={classes.hot_product_content}>
+                        <Link href='/'>
+                            <a>
+                                <div className={classes.hot_product_image}> 
+                                    <Image 
+                                        src="/images/product/orange.jpg" 
+                                        alt="orange" 
+                                        width={150} 
+                                        height={150}
+                                    />
+                                </div>
+                                <div className={classes.hot_product_name}>Orange</div>
+                                <div className={classes.hot_product_price}>$ 2</div>                            
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={classes.hot_product_content}>
+                        <Link href='/'>
+                            <a> 
+                                <div className={classes.hot_product_image}>
+                                    <Image 
+                                        src="/images/product/strawberry.jpg" 
+                                        alt="strawberry" 
+                                        width={150} 
+                                        height={150}
+                                    />
+                                </div>
+                                <div className={classes.hot_product_name}>Strawberry</div>
+                                <div className={classes.hot_product_price}>$ 3.75</div>                            
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={classes.hot_product_content}>
+                        <Link href='/'>
+                            <a>
+                                <div className={classes.hot_product_image}>
+                                    <Image 
+                                        src="/images/product/watermelon.jpg" 
+                                        alt="watermelon" 
+                                        width={150} 
+                                        height={150}
+                                    />
+                                </div>
+                                <div className={classes.hot_product_name}>Watermelon</div>
+                                <div className={classes.hot_product_price}>$ 7</div>                            
+                            </a>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default HotProduct;

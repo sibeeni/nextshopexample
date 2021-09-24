@@ -1,0 +1,29 @@
+
+/* Style the header with a grey background and some padding */
+.subheader {
+    overflow: hidden;
+    background-color: #171616;
+    padding: 3px 10px;
+    margin-top: -65px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.subheadercenter {
+    float: left;
+    margin-left: 20%;
+}
+
+.subheadercenter a{
+    margin-left: 20px;
+}
+
+.subheaderright {
+    float: right;
+    margin-right: 10px;
+}
+
+.subheaderright_content{
+    display: flex;
+}
