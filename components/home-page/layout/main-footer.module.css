@@ -1,0 +1,12 @@
+.footer {    
+    padding: 0% 5%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-size: 12px;
+    background: #252525;
+    color: whitesmoke;
+}
+
+.footer_title {    
+    font-size: 15px;
+}

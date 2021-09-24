@@ -1,0 +1,36 @@
+.top_category {    
+    padding: 0% 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+
+.top_category_body {    
+    display: flex;
+    align-items: flex-start;
+    /*overflow-x: scroll;*/
+    white-space: nowrap;
+}
+
+
+.top_category_content {
+    margin: '7px'; 
+    font-size: '14px';
+    text-align: 'center';
+    text-align: 'center';
+}
+
+/*
+.top_category_content a {    
+    margin-left: 5%;
+}
+
+.top_category_content a div {    
+    font-size:12px;
+    text-align: center;
+}
+*/
+
+.top_category_text_info{
+    font-size:10px;
+}
+

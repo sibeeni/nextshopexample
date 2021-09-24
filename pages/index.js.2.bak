@@ -1,0 +1,77 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import { Fragment } from 'react'
+import styles from '../styles/Home.module.css'
+import TopBanner from '../components/home-page/banner/top-banner';
+import TopCategory from '../components/home-page/category/top-category';
+import SectionBanner from '../components/home-page/section/section-banner';
+import HotProduct from '../components/home-page/product/hot-product';
+
+
+//https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/topbanner.json
+const DUMMY_TOP_BANNERS = [
+    { 
+        id: 'b1',
+        name: 'Healthy Vegetables Wooden Table', 
+        image: 'healthy-vegetables-wooden-table.jpg', 
+    },
+];
+
+//https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/hotproducts.json
+const DUMMY_HOT_PRODUCTS = [
+  { 
+      slug: 'p1',
+      id: 'p1',
+      name: 'Apple', 
+      price: '3.5',
+      image: 'apple.jpg', 
+  },
+  { 
+      slug: 'p2',
+      id: 'p2',
+      name: 'Blueberry', 
+      price: '5.5',
+      image: 'blueberry.jpg', 
+  },
+  { 
+      slug: 'p3',
+      id: 'p3',
+      name: 'Grape', 
+      price: '4.5',
+      image: 'grape.jpg', 
+  },
+  { 
+      slug: 'p4',
+      id: 'p4',
+      name: 'Orange', 
+      price: '2',
+      image: 'orange.jpg', 
+  },
+  { 
+      slug: 'p5',
+      id: 'p5',
+      name: 'Strawberry', 
+      price: '3.75',
+      image: 'strawberry.jpg', 
+  },
+  { 
+      slug: 'p6',
+      id: 'p6',
+      name: 'Watermelon', 
+      price: '7',
+      image: 'watermelon.jpg', 
+  },
+];
+
+function Home(props) {
+  return (
+    <Fragment>
+      <TopBanner banners={DUMMY_TOP_BANNERS}/>
+      <TopCategory />
+      <SectionBanner />
+      <HotProduct products={DUMMY_HOT_PRODUCTS}/>
+    </Fragment>
+  )
+}
+
+export default Home;

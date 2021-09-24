@@ -1,0 +1,13 @@
+.top_banner {    
+    padding: 5%;
+    background-color: white;
+    margin-top: -10px;
+}
+
+.top_banner img {    
+    border-radius: 10px;
+}
+
+.top_banner_text_info{
+    font-size:10px;
+}
