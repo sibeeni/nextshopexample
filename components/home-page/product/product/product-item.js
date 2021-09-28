@@ -6,7 +6,7 @@ function ProductItem(props) {
     const { slug, id, name, price, image } = props.product;
 
     const imagePath = `/images/product/${image}`;
-    const linkPath = `/product/${id}`;
+    const linkPath = `/productdetail/${id}`;
 
     return (
         <div className={classes.product_item_content}>

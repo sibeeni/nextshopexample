@@ -1,0 +1,42 @@
+.product_slot {    
+    padding: 5%;
+    background-color: white;
+    margin-top: -10px;
+}
+
+@media screen and (min-width: 40em) {
+    .product_slot {    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+
+.product_inner_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;    
+}
+
+
+.product_button {
+    text-align: right;
+}
+
+.product_content{    
+    padding:10px;
+}
+.product_image{
+    padding:10px;
+}
+
+.product_price{
+    text-align: right;
+    color: blue;
+}
+
+.product_desc{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 14px;
+}
