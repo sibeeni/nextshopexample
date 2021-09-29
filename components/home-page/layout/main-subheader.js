@@ -8,26 +8,25 @@ function MainHeader(){
     return (
         <Fragment>
             <nav className={classes.subheader}>
-                <div className={classes.subheadercenter}>
-                    <Link href="/spice">Spice</Link>
-                    <Link href="/vegetable">Vegetable</Link>
-                </div>
-                <div className={classes.subheaderright}>
-                    <Link href="/profile">
-                        <a>
-                            <div className={classes.subheaderright_content}>
-                                <div>Profile</div>
-                                <div style={{paddingLeft: '10px', marginTop: '-2px'}}>
-                                    <Image 
-                                        src="/images/common/user.png" 
-                                        alt="Home" 
-                                        width={22} 
-                                        height={22}
-                                    />
+                    <div className={classes.subheaderright}>
+                        <div className={classes.subheader_grid}>
+                            <Link href="/search">Search</Link>
+                        <Link href="/profile">
+                            <a>
+                                <div className={classes.subheaderright_content}>
+                                    <div>Profile</div>
+                                    <div style={{paddingLeft: '10px', marginTop: '-2px'}}>
+                                        <Image 
+                                            src="/images/common/user.png" 
+                                            alt="Home" 
+                                            width={22} 
+                                            height={22}
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </Link>
+                            </a>
+                        </Link>
+                    </div>
                 </div>
             </nav>
         </Fragment>

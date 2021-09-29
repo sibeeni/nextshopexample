@@ -109,6 +109,7 @@ function Home(props) {
   }
   //--Hot product fetching
   
+  console.log('hotProduct:' + hotProduct)
 
   return (
     <Fragment>

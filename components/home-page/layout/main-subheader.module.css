@@ -10,6 +10,11 @@
     font-size: 14px;
 }
 
+.subheader_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;    
+}
 .subheadercenter {
     float: left;
     margin-left: 20%;
