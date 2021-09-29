@@ -62,3 +62,10 @@ https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/topban
 		"name": "Healthy Vegetables Wooden Table"
 	}
 }
+
+<br />
+<br />
+Logo made by freelogodesign.org
+Section image from pexels.com
+Background photo created by jcomp - www.freepik.com
+Stickers made by Stickers from www.flaticon.com
