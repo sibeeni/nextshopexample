@@ -1,5 +1,12 @@
-https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/hotproducts.json
+Exploring nextjs, with pages:
+<br />
+-main page <br />
+-product page <br />
+-search page <br />
+<br />
 
+https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/hotproducts.json 
+<br />
 {
 	"p1": {
 		"desc": "Apples May Lower High Cholesterol and Blood Pressure. Eating Foods With Fiber, Including Apples, Can Aid Digestion. Apples Can Support a Healthy Immune System. Apples Are a Diabetes-Friendly Fruit.",
@@ -44,9 +51,11 @@ https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/hotpro
 		"slug": "p6"
 	}
 }
-
+<br />
+<br />
 
 https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/topbanner.json
+<br />
 {
 	"b1": {
 		"image": "healthy-vegetables-wooden-table.jpg",
