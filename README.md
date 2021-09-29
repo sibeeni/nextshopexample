@@ -66,6 +66,10 @@ https://nextshopexample-default-rtdb.asia-southeast1.firebasedatabase.app/topban
 <br />
 <br />
 Logo made by freelogodesign.org
+<br />
 Section image from pexels.com
+<br />
 Background photo created by jcomp - www.freepik.com
+<br />
 Stickers made by Stickers from www.flaticon.com
+<br />
