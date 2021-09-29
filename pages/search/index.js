@@ -71,7 +71,7 @@ function SearchPage(){
                 
                 {isFound
                     ? <SearchProduct products={fetchedData}/>
-                    : <div>Not product</div>
+                    : <div>No product</div>
                 }
             </div>
         </Fragment>
